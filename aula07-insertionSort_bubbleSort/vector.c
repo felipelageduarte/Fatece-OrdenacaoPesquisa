@@ -31,6 +31,21 @@ int *newRandVector(int n){
 	return v;
 }
 
+int *getExeVector(int *n){
+	(*n) = 9;
+	int *v = newVector(9);
+	v[0] = 7;
+	v[1] = 5;
+	v[2] = 8;
+	v[3] = 4;
+	v[4] = 9;
+	v[5] = 2;
+	v[6] = 3;
+	v[7] = 6;
+	v[8] = 1;
+	return v;
+}
+
 void printVector(int *v, int n){
 	int i;
 	printf("[");
